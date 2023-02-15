@@ -6,7 +6,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        hello{this.c} 
+        Hello {this.c} 
       </div>
     )
   }
