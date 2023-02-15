@@ -1,12 +1,13 @@
 import './App.css';
 import React, { Component } from 'react'
+import NavBar from './component/NavBar';
 
 export default class App extends Component {
-  c="world"
+
   render() {
     return (
       <div>
-        hello{this.c} 
+          <NavBar/>
       </div>
     )
   }
